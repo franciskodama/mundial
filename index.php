@@ -5,8 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mundial Comunicação Visual </title>
-  <meta name="description" content="Portfolio Template"/>
-  <meta name="author" content="sego">
+
+  <meta
+    name="description"
+    content="Mundial Comunicação Visual Website Corporativo"
+  />
+  <meta
+    name="title"
+    property="og:title"
+    content="Mundial Comunicação Visual"
+  />
+  <meta property="og:type" content="Mundial Comunicação Visual Website" />
+  <meta
+    name="image"
+    property="og:image"
+    content="https://fkodama.com/_permanent/linkedin/project-mundial-thumb.jpg"
+  />
+  <meta
+    name="description"
+    property="og:description"
+    content="Mundial Comunicação Visual Website Corporativo"
+  />
+  <meta name="author" content="Francis Kodama" />
 
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
@@ -24,12 +44,6 @@ $token = md5(uniqid(rand(), true));
 $_SESSION['token'] = $token;
 date_default_timezone_set('America/Sao_Paulo');
 ?>
-  <!-- <div id="preloader">
-    <div class="cssload-container">
-      <div class="cssload-double-torus">
-      </div>
-    </div>
-  </div> -->
 
   <header>
     <div class="container">
@@ -221,10 +235,8 @@ date_default_timezone_set('America/Sao_Paulo');
       <ul class="work-nav filters filters-group">
         <li class="visually-hidden"><button class="filter is-checked filter-all" data-filter="all">Todos</button></li>
         <li><button class="filter filter-1" data-filter="1">Projetos Especiais</button></li>
-        <!-- <li><button class="filter" data-filter="2">Sinalização</button></li> -->
         <li><button class="filter" data-filter="3">Impressão Digital</button></li>
         <li><button class="filter" data-filter="4">Corte a laser e router</button></li>
-        <!-- <li><button class="filter" data-filter="5">Estruturas metálicas</button></li> -->
         <li><button class="filter" data-filter="6">Personalizações</button></li>
       </ul>
 
@@ -651,7 +663,7 @@ date_default_timezone_set('America/Sao_Paulo');
   <footer class="footer">
     <div class="back-top"></div>
     <div class="container">
-      <p>© 2020 Mundial Comunicação Visual. Todos os direitos reservados.</p>
+      <p>© 2021 Mundial Comunicação Visual. Todos os direitos reservados.</p>
     </div>
   </footer>
 
